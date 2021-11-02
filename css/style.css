@@ -1,0 +1,162 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    
+}
+
+body {
+    background-color: #dac2e9;
+}
+
+/* ***************************** HEADER SECTION ***************************** */
+
+header {
+    display: flex;
+    background-color: #2e2939; 
+    justify-content: space-between;
+    align-self: center;
+    
+}
+
+.navbar {
+    display: flex;
+}
+
+nav ul li{
+    display: inline;
+       
+}
+
+nav {
+    align-self: center;
+    
+}
+
+
+table {
+    border: solid 1px #f9ab60;
+}
+
+a {
+    text-decoration: none;
+    color: #e2d9e4;
+    margin: 5px;
+    border: solid 1px #FFC8DD;
+    border-radius: 20px;
+    padding: 8px;
+    
+    
+}
+
+
+
+.logo {
+    width: 50px;
+    border-radius: 35px;
+    margin: 5px;
+}
+
+
+h3 {
+    display: inline;
+    font-weight: 200;
+    color: #e2d9e4;
+    font-size: smaller;
+    align-self: center;
+}
+
+a:hover {
+    color: #FFAFCC;
+    transition: color 1s; 
+}
+
+
+@media only screen and (max-width:574px)  {
+    nav {
+        display: none;
+    }
+}
+
+/* ***************************** BANNER SECTION ***************************** */
+
+.banner {
+    height: 350px;
+    background: linear-gradient(to bottom,#2e2939,#dac2e9);
+    display: flex;
+    flex-direction: column;
+}
+
+
+.texto_banner {
+    text-align: center;
+    color: #e2d9e4;
+    font-weight: 200;
+}
+
+
+/* ***************************** GRID SECTION ***************************** */
+
+.grid {
+    display: grid;
+    border: solid 2px black;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 2fr 2fr;
+}
+
+.item {
+    border: solid 2px wheat;
+    
+}
+
+
+
+
+
+
+
+/* ***************************** FOOTER SECTION ***************************** */
+
+
+footer {
+    display: flex;
+    background-color: #2e2939;
+    color: #e2d9e4;    
+    justify-content: space-between;
+    
+}
+
+.logos_redes {
+    width: 30px;
+    padding: 2px;
+    border: solid 1px #e2d9e4;
+    background-color: #e2d9e4;
+    border-radius: 5px;
+}
+
+.footer_logos {
+    display: flex;
+    width: 100px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer_copy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.copy {
+    border-radius: 20px;
+    margin-right: 5px;
+}
+
+.footer_copy p {
+    display: flex;
+    align-items: center;
+    padding-top: 5px;
+    padding-right: 5px;
+}
+
