@@ -1,185 +1,24 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Zen Kaku Gothic Antique', sans-serif;
-    
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 body {
-    background-color: #dac2e9;
+  background-color: #dac2e9;
+}
+body footer {
+  background-color: #2e2939;
 }
 
-/* ***************************** HEADER SECTION ***************************** */
-
-header {
-    display: flex;
-    background-color: #2e2939; 
-    justify-content: space-between;
-    align-self: center;
-    
+.nav__fondo--color {
+  background-color: #2e2939;
 }
 
-.navbar {
-    display: flex;
+.icono__fondo-redondear {
+  background-color: white;
+  border-radius: 15px;
+  border: solid 3px white;
 }
 
-nav ul li{
-    display: inline;
-       
-}
-
-nav {
-    align-self: center;
-    
-}
-
-
-table {
-    border: solid 1px #f9ab60;
-}
-
-a {
-    text-decoration: none;
-    color: #e2d9e4;
-    margin: 5px;
-    border: solid 1px #FFC8DD;
-    border-radius: 20px;
-    padding: 8px;
-    
-    
-}
-
-
-
-.logo {
-    width: 50px;
-    border-radius: 35px;
-    margin: 5px;
-}
-
-
-h3 {
-    display: inline;
-    font-weight: 200;
-    color: #e2d9e4;
-    font-size: smaller;
-    align-self: center;
-}
-
-a:hover {
-    color: #FFAFCC;
-    transition: color 500ms; 
-}
-
-
-@media only screen and (max-width:574px)  {
-    nav {
-        display: none;
-    }
-}
-
-/* ***************************** BANNER SECTION ***************************** */
-
-.banner {
-    height: 350px;
-    background: linear-gradient(to bottom,#2e2939,#dac2e9);
-    display: flex;
-    flex-direction: column;
-}
-
-
-.texto_banner {
-    text-align: center;
-    color: #e2d9e4;
-    font-weight: 200;
-}
-
-
-/* ***************************** GRID SECTION ***************************** */
-
-.grid {
-    display: grid;
-    border-top: solid 1px black;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 660px 660px;
-    grid-template-areas: "menu1 main1" "menu2 main2";
-
-}
-
-.item1 {
-    grid-area: main1;
-    background-image: url("https://www.wallpapertip.com/wmimgs/25-253328_nature-wallpapers-tumblr-nature-tumblr-background-hd.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    border: solid 1px black;
-}
-
-.item2 {
-    grid-area: menu1;
-    align-self: center;
-    justify-self: center;
-}
-
-.item3 {
-    grid-area: menu2;
-    background-image: url("https://www.wallpapertip.com/wmimgs/25-253328_nature-wallpapers-tumblr-nature-tumblr-background-hd.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    border: solid 1px black;
-}
-.item4 {
-    grid-area: main2;
-    align-self: center;
-    justify-self: center;
-   
-}
-
-
-
-
-/* ***************************** FOOTER SECTION ***************************** */
-
-
-footer {
-    display: flex;
-    background-color: #2e2939;
-    color: #e2d9e4;    
-    justify-content: space-between;
-    
-}
-
-.logos_redes {
-    width: 30px;
-    padding: 1px;
-    border: solid 1px #e2d9e4;
-    background-color: #e2d9e4;
-    border-radius: 5px;
-}
-
-.footer_logos {
-    display: flex;
-    width: 100px;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.footer_copy {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.copy {
-    border-radius: 20px;
-    margin-right: 5px;
-}
-
-.footer_copy p {
-    display: flex;
-    align-items: center;
-    padding-top: 3px;
-    padding-right: 5px;
-    padding-bottom: 3px;
-}
-
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,20 @@
+{
+  "name": "perfumar",
+  "version": "1.0.0",
+  "description": "proyecto perfumar web",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch scss/style.scss css/style.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jenndeprada/perfumar.git"
+  },
+  "author": "jennifer deprada",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jenndeprada/perfumar/issues"
+  },
+  "homepage": "https://github.com/jenndeprada/perfumar#readme"
+}

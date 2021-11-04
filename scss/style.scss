@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;   
+}
+
+$violeta: #2e2939;
+$violeta-palido: #dac2e9;
+
+@mixin icons($color, $redondeo) {
+    background-color: $color;
+    border-radius: $redondeo;
+}
+
+
+
+body {
+    background-color: $violeta-palido;
+
+    footer {
+        background-color: $violeta;
+    }
+}
+
+.nav__fondo--color {
+    background-color: $violeta;
+}
+
+.icono__fondo-redondear {
+    @include icons(white, 15px );
+    border: solid 3px white;
+}
