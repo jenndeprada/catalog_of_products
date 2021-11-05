@@ -1,72 +1,88 @@
 <!DOCTYPE html>
-<html lang="es">      <!--  Cambiar a 'es' para que google no nos haga pop up para traducir la pagina   -->
+<html lang="es">   
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Entregable 1: Clase 0</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>Perfum.ar</title>
     <!-- fuentes -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique:wght@300;700&display=swap" rel="stylesheet">
+
     <!-- bootstrap -->
-    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> 
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header>
-        <div class="navbar">
-            <img src="img/Perfum.ar.png" alt="logoPerfumar" class="logo"> 
-            <h3>PERFUM.AR</h3>
-        </div>
-        <nav>
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-                <li><a href="link2.html">Productos</a></li>
-                <li><a href="link3.html">Link 3</a></li>
-                <li><a href="link4.html">Link 4</a></li>
-            </ul>
-        </nav>
+
+        <nav class="navbar navbar-dark navbar-expand-sm">
+            <div class="container-fluid fixed-top shadow-lg p-2 banner-img nav__fondo--color">
+              <a class="navbar-brand" href="index.html">
+                <img src="img/logoipsum-logo-15.svg" alt="" width="30" height="24" class="d-inline-block align-text-top">
+                Perfum.ar
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="overview.html">Overview</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="about.html">About Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contacto.html">Contact Us</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+
     </header>
 
     <main>
-        <div class="banner">
-            <h1 class="texto_banner">Lorem ipsum dolor sit amet</h1>
-            <p class="texto_banner">Tu personalidad es <i>UNICA</i>, y tiene su propia esencia</p>
-        </div>
-        
-        <div class="grid">
-            
-            <div class="item1"></div>
-            <div class="item2">
-                <h2>Practica de grid System</h2>
-                <p>Lorem ipsum dolor sit amet.</p>
-            </div>
-            <div class="item3"></div>
-            <div class="item4">
-                <h2>Practica de grid System</h2>
-                <p>Lorem ipsum dolor sit amet.</p>
-            </div>
 
+      <div class="container-fluid px-0 py-2">
+        <img src="img/img.jpg" class="img-fluid opacity-75" alt="...">
+        <!-- poner texto blanco encima de la imagen -->
+      </div>
 
-        </div>
-        
+      <div class="d-flex flex-column p-4">
+        <h1>Lorem ipsum dolor sit amet</h1>
+        <p>Tu personalidad es <i>UNICA</i>, y tiene su propia esencia</p>
+        <h4>Lorem, ipsum dolor.</h4>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui, quidem ea! Cupiditate non illum tempora molestiae ipsum quibusdam, itaque sapiente consequuntur dolor! Sequi iusto quidem in error, vitae atque aliquam?
+          Fugit, labore adipisci. Ullam tenetur deserunt quisquam unde facilis odit ea, quo neque minima officia quaerat. Earum similique, facere eum sed consequatur officia cupiditate laborum ducimus itaque assumenda qui. Eos!</p>
+
+      </div>
+
     </main>
-    
+
+    <!-- gradiente en background -->
+
 
     <footer>
-        <div class="footer_logos">
-            <img src="img/facebookLogo.png" alt="facebook logo" class="logos_redes">
-            <img src="img/instagram.png" alt="instagram logo" class="logos_redes">
+      <div class="d-flex p-2 justify-content-between shadow-lg p-3">
+        <div>
+          <img src="img/instagram.svg" class="img-fluid icono__fondo-redondear" alt="#">
+          <img src="img/facebook.svg" class="img-fluid icono__fondo-redondear" alt="#">
         </div>
-        <div class="footer_copy">
-            <p><img src="img/trademark.png" alt="instagram logo" class="logos_redes copy">Copyright<sub>2021</sub></p>
-        </div>
+        <div class="d-flex align-items-center">
+           <span class="px-2" style="color: aliceblue;">Jenn dePrada</span>
+          <img src="img/github.svg" alt="#" class="img-fluid icono__fondo-redondear">  
+        </div>     
+      </div>
     </footer>
+    
 
-
-    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script> 
     
 </body>
 </html>
