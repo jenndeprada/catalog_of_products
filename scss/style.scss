@@ -6,6 +6,7 @@
 
 $violeta: #2e2939;
 $violeta-palido: #dac2e9;
+$violeta-grisaceo: #8B8184;
 
 @mixin icons($color, $redondeo) {
     background-color: $color;
@@ -15,18 +16,63 @@ $violeta-palido: #dac2e9;
 
 
 body {
-    background-color: $violeta-palido;
+    background-color: $violeta-grisaceo;
+
 
     footer {
         background-color: $violeta;
-    }
+    
 }
+
+
+
+/* ***************** ALL PAGES ******************* */
 
 .nav__fondo--color {
     background-color: $violeta;
 }
 
-.icono__fondo-redondear {
-    @include icons(white, 15px );
-    border: solid 3px white;
+.icono__footer-redondear {
+    @include icons(white, 10px );
+    padding: 4px;
+}
+
+
+
+/* ***************** OVERVIEW ******************* */
+
+.card__color {
+    background-color: $violeta;
+    color: white;
+}
+
+.card__color:hover {
+    background-color: $violeta-palido;
+    color: black;
+    border: solid 1px $violeta;
+}
+
+}
+
+/* ***************** CONTACT US ******************* */
+
+.costum-contact {
+    height: 900px;
+}
+.costum__contact-fondo {
+    background-color: white;
+}
+
+.costum__boton-color {
+    background-color: $violeta-palido;
+    
+}
+
+.costum__row-espacio {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.costum__readonly-color{
+    color: $violeta;
 }

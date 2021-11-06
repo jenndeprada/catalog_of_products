@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Perfum.ar</title>
+    <title>Perfum.ar | Contacto</title>
     <!-- fuentes -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -47,10 +47,51 @@
 
     </header>
 
-    <main>
-      <div class="container" style="height: 700px;">
+    <main class="d-flex align-items-center costum-contact p-3">
+
+      <div class="container costum__contact-fondo p-5 rounded">
+        <div class="row costum__row-espacio">
+          <div class="col">
+            <input class="form-control costum__readonly-color" type="text" value="If you want to be part of this proyect, contact us:" aria-label="readonly input example" readonly>
+          </div>
+        </div>
+        <div class="row costum__row-espacio">
+          <div class="col">
+            <label for="nombre">Name</label>
+            <input type="text" class="form-control" placeholder="John">
+          </div>
+          <div class="col">
+            <label for="apellido">Last</label>
+            <input type="text" class="form-control" placeholder="Snow">
+          </div>
+        </div>
+        <div class="row costum__row-espacio">
+          <div class="col">
+            <label for="email">Email</label>
+            <input type="email" class="form-control" placeholder="email@example.com">
+          </div>
+        </div>
+        <div class="row costum__row-espacio">
+          <div class="col pb-4">
+            <label class="form-label" for="check">I'm representing a...</label>
+            <div id="check" class="form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+              <label class="form-check-label" for="flexRadioDefault1">
+                Company
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+              <label class="form-check-label" for="flexRadioDefault2">
+                Myself
+              </label>
+          </div>
+        </div>
+
+        <button class="btn costum__boton-color">Send</button>
 
       </div>
+
     </main>
    
 

@@ -5,20 +5,51 @@
 }
 
 body {
-  background-color: #dac2e9;
+  background-color: #8B8184;
+  /* ***************** ALL PAGES ******************* */
+  /* ***************** OVERVIEW ******************* */
 }
 body footer {
   background-color: #2e2939;
 }
-
-.nav__fondo--color {
+body .nav__fondo--color {
   background-color: #2e2939;
 }
-
-.icono__fondo-redondear {
+body .icono__footer-redondear {
   background-color: white;
-  border-radius: 15px;
-  border: solid 3px white;
+  border-radius: 10px;
+  padding: 4px;
+}
+body .card__color {
+  background-color: #2e2939;
+  color: white;
+}
+body .card__color:hover {
+  background-color: #dac2e9;
+  color: black;
+  border: solid 1px #2e2939;
+}
+
+/* ***************** CONTACT US ******************* */
+.costum-contact {
+  height: 900px;
+}
+
+.costum__contact-fondo {
+  background-color: white;
+}
+
+.costum__boton-color {
+  background-color: #dac2e9;
+}
+
+.costum__row-espacio {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.costum__readonly-color {
+  color: #2e2939;
 }
 
 /*# sourceMappingURL=style.css.map */
