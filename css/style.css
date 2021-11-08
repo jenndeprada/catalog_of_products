@@ -20,6 +20,9 @@ body .icono__footer-redondear {
   border-radius: 10px;
   padding: 4px;
 }
+body .costum__color-text {
+  color: white;
+}
 body .card__color {
   background-color: #2e2939;
   color: white;
