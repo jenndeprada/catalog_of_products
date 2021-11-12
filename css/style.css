@@ -22,6 +22,7 @@ body .footer__iconos-redondeo {
 }
 body .verMas__button-color {
   background-color: #2e2939;
+  border-radius: 15px;
   color: white;
 }
 body .verMas__button-color:hover {

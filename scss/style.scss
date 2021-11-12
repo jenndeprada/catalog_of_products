@@ -41,7 +41,7 @@ body {
 /* ***************** OVERVIEW ******************* */
 
 .verMas__button-color {
-    background-color: $violeta;
+    @include icons($violeta, 15px);
     color: white;
 }
 
