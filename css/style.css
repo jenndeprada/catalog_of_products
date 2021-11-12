@@ -12,33 +12,30 @@ body {
 body footer {
   background-color: #2e2939;
 }
-body .nav__fondo--color {
+body .header__nav-color {
   background-color: #2e2939;
 }
-body .icono__footer-redondear {
+body .footer__iconos-redondeo {
   background-color: white;
   border-radius: 10px;
   padding: 4px;
 }
-body .costum__color-text {
-  color: white;
-}
-body .card__color {
+body .verMas__button-color {
   background-color: #2e2939;
   color: white;
 }
-body .card__color:hover {
+body .verMas__button-color:hover {
   background-color: #dac2e9;
   color: black;
   border: solid 1px #2e2939;
 }
 
 /* ***************** CONTACT US ******************* */
-.costum-contact {
+.contacto__main-altura {
   height: 900px;
 }
 
-.costum__contact-fondo {
+.main__contacto-fondo {
   background-color: white;
 }
 

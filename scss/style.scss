@@ -28,28 +28,24 @@ body {
 
 /* ***************** ALL PAGES ******************* */
 
-.nav__fondo--color {
+.header__nav-color {
     background-color: $violeta;
 }
 
-.icono__footer-redondear {
+.footer__iconos-redondeo {
     @include icons(white, 10px );
     padding: 4px;
-}
-
-.costum__color-text {
-    color: white;
 }
 
 
 /* ***************** OVERVIEW ******************* */
 
-.card__color {
+.verMas__button-color {
     background-color: $violeta;
     color: white;
 }
 
-.card__color:hover {
+.verMas__button-color:hover {
     background-color: $violeta-palido;
     color: black;
     border: solid 1px $violeta;
@@ -59,10 +55,10 @@ body {
 
 /* ***************** CONTACT US ******************* */
 
-.costum-contact {
+.contacto__main-altura {
     height: 900px;
 }
-.costum__contact-fondo {
+.main__contacto-fondo {
     background-color: white;
 }
 
