@@ -1,0 +1,44 @@
+[
+    {
+        "nombre": "La vida es bella",
+        "marca": "Lancome",
+        "tipo": "floral",
+        "imagen": "https://m.media-amazon.com/images/I/51XtcqlPPcL._SL1000_.jpg",
+        "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero sapiente provident quis mollitia inventore vitae fugiat delectus atque perspiciatis, autem quasi maiores aperiam voluptas placeat pariatur, exercitationem, animi tenetur! Consectetur?"
+    },
+    {
+        "nombre": "Sauvage",
+        "marca": "Dior",
+        "tipo": "floral",
+        "imagen": "https://m.media-amazon.com/images/I/51XtcqlPPcL._SL1000_.jpg",
+        "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero sapiente provident quis mollitia inventore vitae fugiat delectus atque perspiciatis, autem quasi maiores aperiam voluptas placeat pariatur, exercitationem, animi tenetur! Consectetur?"
+    },
+    {
+        "nombre": "In 2 U",
+        "marca": "Calvin Klein",
+        "tipo": "floral",
+        "imagen": "https://m.media-amazon.com/images/I/51XtcqlPPcL._SL1000_.jpg",
+        "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero sapiente provident quis mollitia inventore vitae fugiat delectus atque perspiciatis, autem quasi maiores aperiam voluptas placeat pariatur, exercitationem, animi tenetur! Consectetur?"
+    },
+    {
+        "nombre": "my way",
+        "marca": "Armani",
+        "tipo": "floral",
+        "imagen": "https://m.media-amazon.com/images/I/51XtcqlPPcL._SL1000_.jpg",
+        "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero sapiente provident quis mollitia inventore vitae fugiat delectus atque perspiciatis, autem quasi maiores aperiam voluptas placeat pariatur, exercitationem, animi tenetur! Consectetur?"
+    },
+    {
+        "nombre": "Voyage Sport",
+        "marca": "Nautica",
+        "tipo": "floral",
+        "imagen": "https://m.media-amazon.com/images/I/51XtcqlPPcL._SL1000_.jpg",
+        "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero sapiente provident quis mollitia inventore vitae fugiat delectus atque perspiciatis, autem quasi maiores aperiam voluptas placeat pariatur, exercitationem, animi tenetur! Consectetur?"
+    },
+    {
+        "nombre": "Be delicious",
+        "marca": "Donna Karan",
+        "tipo": "floral",
+        "imagen": "https://m.media-amazon.com/images/I/51XtcqlPPcL._SL1000_.jpg",
+        "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero sapiente provident quis mollitia inventore vitae fugiat delectus atque perspiciatis, autem quasi maiores aperiam voluptas placeat pariatur, exercitationem, animi tenetur! Consectetur?"
+    }
+]
