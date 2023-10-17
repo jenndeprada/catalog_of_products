@@ -3,28 +3,56 @@
         "nombre": "La vida es bella",
         "marca": "Lancome",
         "tipo": "floral",
-        "imagen": "https://m.media-amazon.com/images/I/51XtcqlPPcL._SL1000_.jpg",
+        "imagen": "https://atrkadeh.com/images/perfume/lancome/la-vie-est-belle/lancome-la-vie-est-belle-eau-de-parfum.jpg",
         "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero sapiente provident quis mollitia inventore vitae fugiat delectus atque perspiciatis, autem quasi maiores aperiam voluptas placeat pariatur, exercitationem, animi tenetur! Consectetur?"
     },
     {
         "nombre": "Sauvage",
         "marca": "Dior",
         "tipo": "floral",
-        "imagen": "https://m.media-amazon.com/images/I/51XtcqlPPcL._SL1000_.jpg",
+        "imagen": "https://gelniche.fbitsstatic.net/img/p/perfume-sauvage-dior-masculino-eau-de-parfum-60ml-71055/257537-4.jpg?w=256&h=256&v=no-change&qs=ignore",
         "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero sapiente provident quis mollitia inventore vitae fugiat delectus atque perspiciatis, autem quasi maiores aperiam voluptas placeat pariatur, exercitationem, animi tenetur! Consectetur?"
     },
     {
         "nombre": "In 2 U",
         "marca": "Calvin Klein",
         "tipo": "floral",
-        "imagen": "https://m.media-amazon.com/images/I/51XtcqlPPcL._SL1000_.jpg",
+        "imagen": "https://www.perfumerianormy.com.ar/wp-content/uploads/2016/08/calvin-klein-in2u-him-edt-3.jpg",
         "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero sapiente provident quis mollitia inventore vitae fugiat delectus atque perspiciatis, autem quasi maiores aperiam voluptas placeat pariatur, exercitationem, animi tenetur! Consectetur?"
     },
     {
-        "nombre": "my way",
+        "nombre": "My way",
         "marca": "Armani",
         "tipo": "floral",
-        "imagen": "https://m.media-amazon.com/images/I/51XtcqlPPcL._SL1000_.jpg",
+        "imagen": "https://siman.vtexassets.com/arquivos/ids/1659789-800-800?v=637656170088700000&width=800&height=800&aspect=true",
+        "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero sapiente provident quis mollitia inventore vitae fugiat delectus atque perspiciatis, autem quasi maiores aperiam voluptas placeat pariatur, exercitationem, animi tenetur! Consectetur?"
+    },
+    {
+        "nombre": "La vida es bella",
+        "marca": "Lancome",
+        "tipo": "floral",
+        "imagen": "https://atrkadeh.com/images/perfume/lancome/la-vie-est-belle/lancome-la-vie-est-belle-eau-de-parfum.jpg",
+        "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero sapiente provident quis mollitia inventore vitae fugiat delectus atque perspiciatis, autem quasi maiores aperiam voluptas placeat pariatur, exercitationem, animi tenetur! Consectetur?"
+    },
+    {
+        "nombre": "Sauvage",
+        "marca": "Dior",
+        "tipo": "floral",
+        "imagen": "https://gelniche.fbitsstatic.net/img/p/perfume-sauvage-dior-masculino-eau-de-parfum-60ml-71055/257537-4.jpg?w=256&h=256&v=no-change&qs=ignore",
+        "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero sapiente provident quis mollitia inventore vitae fugiat delectus atque perspiciatis, autem quasi maiores aperiam voluptas placeat pariatur, exercitationem, animi tenetur! Consectetur?"
+    },
+    {
+        "nombre": "In 2 U",
+        "marca": "Calvin Klein",
+        "tipo": "floral",
+        "imagen": "https://www.perfumerianormy.com.ar/wp-content/uploads/2016/08/calvin-klein-in2u-him-edt-3.jpg",
+        "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero sapiente provident quis mollitia inventore vitae fugiat delectus atque perspiciatis, autem quasi maiores aperiam voluptas placeat pariatur, exercitationem, animi tenetur! Consectetur?"
+    },
+    {
+        "nombre": "My way",
+        "marca": "Armani",
+        "tipo": "floral",
+        "imagen": "https://siman.vtexassets.com/arquivos/ids/1659789-800-800?v=637656170088700000&width=800&height=800&aspect=true",
         "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero sapiente provident quis mollitia inventore vitae fugiat delectus atque perspiciatis, autem quasi maiores aperiam voluptas placeat pariatur, exercitationem, animi tenetur! Consectetur?"
     }
 ]
