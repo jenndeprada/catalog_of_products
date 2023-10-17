@@ -34,9 +34,9 @@ function agregar_perfume(nombre,marca,tipo, imagen, descripcion){
         baseLocal.push(nuevoPerfume); 
         localStorage.setItem("dataBase", JSON.stringify(baseLocal)); 
     }
-          
+    
     renderProduct(nombre, marca, tipo, imagen)
- 
+
     }
     
 function renderProduct(nombre,marca,tipo,imagen){
