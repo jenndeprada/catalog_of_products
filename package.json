@@ -1,4 +1,5 @@
 {
+  "type": "module",
   "name": "perfumar",
   "version": "1.0.0",
   "description": "proyecto perfumar web",
@@ -16,5 +17,10 @@
   "bugs": {
     "url": "https://github.com/jenndeprada/perfumar/issues"
   },
-  "homepage": "https://github.com/jenndeprada/perfumar#readme"
+  "homepage": "https://github.com/jenndeprada/perfumar#readme",
+  "dependencies": {
+    "node": "^21.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
 }

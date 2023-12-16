@@ -1,6 +1,6 @@
 
 let form = document.getElementById("form");
-form.addEventListener("submit", validarFormulario);
+console.log(form)
 
 function storeData(user, pass){
     localStorage.setItem("username", user);
@@ -9,12 +9,17 @@ function storeData(user, pass){
 
 
 function validarFormulario(e){
-    e.preventDefault();
+    console.log('inside validar form')
     let formulario = e.target
     let userInputName = formulario.children[0].children[0].value;
     let userInputPassword = formulario.children[0].children[1].value; 
     storeData(userInputName,userInputPassword);
 }
+
+
+form.addEventListener("submit", validarFormulario);
+
+
 
 
 
